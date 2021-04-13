@@ -1,0 +1,252 @@
+*{/* pour reinitialiser les styles de css*/
+font-family: Helvetica,Tahoma ,sans-serif;
+padding: 0px;
+margin: 0px;
+text-align: justify;
+box-sizing:border-box;
+}
+body{
+	background-color: #ededed;
+}
+p{
+	font-size: 1em;
+	line-height: 1.5em;/*It's commonly used to set the distance between lines of text*/
+}
+a{
+
+	color: #000;
+}
+header, footer{
+	width: 100%;
+	padding: 20px 0px;
+	background: url(fond.jpg) #4f4f4f;
+	box-shadow: 0px 0px 15px /*degradage*/ #333 /*couleur d'embre*/;
+}
+header{
+
+border-bottom: 2px solid #fff;
+height :120px;
+}
+
+header h1{
+	color : white;
+	font-size: 1.5em;
+	width : 90%;
+	margin: 0 auto;
+	text-align: center; /*on veut de marge haute et pour les autres marges on veut une marges automatique*/
+	/*ca signifie que les marges top and bottom egaux a 0 et les autres vont divise la marge entre eux*/
+}
+footer{
+	border-top: 2px solid #fff;
+
+}
+footer p{
+	color : white;
+	margin: 0 auto;
+	width : 90%;
+	text-align: center;
+
+}
+footer a{
+
+	color:#fff;
+}
+section{
+
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 20px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px #bbb;
+	background-color: #fff;
+}
+section h2{
+	margin: 20px 0 ;
+	width: 90% ;
+
+}
+section > div{
+	width: 90%;
+	padding: 15px;
+
+}
+.photo{
+text-align: center;
+
+}
+.photo img{
+	width: 150px;
+	height:150px;
+	border:3px solid #fff;
+	box-shadow: 0 0 0 #777;
+	border-radius: 50%;/*pour arrondir l'image*/
+	position: center;
+
+}
+.presentez_vous{
+	border-bottom: 2px dashed #ccc;
+
+}
+.presentez_vous a{
+display: block;
+text-align: center;
+padding: 10px;
+margin: 10px auto 30px auto;
+color: #fff;
+background-color: #ea0;
+box-shadow: 0 0 10px #ccc;
+border-radius: 50x;
+
+
+}
+.contact-flex{
+	display:flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.contact-flex p:first-child{
+	flex : 0 0 40%;
+}
+.contact-flex p:last-child{
+	flex : 0 0 60%;
+}
+.social{
+display: flex;
+justify-content: space-around;
+margin: 20px auto 0 auto;
+
+}
+.social img{
+	width: 40px;
+	height: 40px;
+}
+.exp{
+	display: flex;
+	flex-flow: row wrap;
+	border-bottom: 1px solid #bbb;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+}
+.exp-info{
+display: flex;
+flex-flow:column wrap;
+
+}
+.exp-logo-mini {
+
+flex :0 0 25%;
+max-width: 100px;
+
+}
+.exp-info{
+
+	flex: 0 0 70%;
+	margin-left: auto;
+}
+.exp-description{
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.exp img{
+	width: 100%;
+
+}
+ .exp h3{
+font-size: 1.2em;
+
+ }
+ .exp h4{
+	 font-size: 1.em;
+	 font-weight:normal;
+ }
+.comp1{
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: 10px;
+}
+.comp1 p{
+	flex: 0 0 40%;
+	text-align: center;
+
+}
+.conteneur-barre1{
+	flex: 0 0 60%;
+	border-radius: 5px;
+	background-color: grey;
+	border-bottom: 1px ridge grey;
+}
+.barre{
+	display: block;
+	height: 100%;
+border-top-left-radius: 	5px;
+border-bottom-left-radius: 	5px;
+
+}
+.c85{
+width: 85%;
+background-color: #4b8;
+
+}
+.c90{
+width: 90%;
+background-color: #4b8;
+
+}
+.c95{
+width: 95%;
+background-color: #4b8;
+
+}
+.c100{
+width: 100%;
+background-color: #4b8;
+
+}
+.comp2{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;/*les elements seront situees aux cotees*/
+}
+.conteneur-barre2{
+
+	flex: 0 0 100%;
+	height: .5em;
+	margin-bottom: 0.25em;
+	background-color: grey;
+	border-radius: 5px;
+
+}
+.interet{
+flex: 50%;
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+margin-bottom: 20px;
+padding-top: 15px;
+}
+.interet img{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+box-shadow: 0 0 15px #555;
+margin-bottom: 15px;
+
+}
+.competence{
+	width: 100%;
+	padding-bottom: 20px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px #bbb;
+	background-color: #fff;
+}
+.h3{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.h2{
+	padding-top: 20px;
+}
