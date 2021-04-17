@@ -1,0 +1,100 @@
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+  background-color: #ffffff;
+
+}
+#header-nav{
+	background-color: #b3b5b5;
+
+}
+.container .navbar-header .navbar-brand{
+
+	margin:auto -30px ;
+	height: fit-content;
+
+}
+.navbar-brand h1{
+
+font-family: 'lora',sans-serif;
+color: #000;
+font-size: 1.9em;
+text-transform: uppercase;/* le text dera em majiscul*/
+font-weight:bold;
+text-shadow: 2px 2px 2px #222;
+line-height: .75;/*pour modifier l'espace entre les ligne*/ 
+}
+.navbar-brand a:hover , .navbar-brand a:focus {
+text-decoration : none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar , .nav-item {
+  border: 1px solid #61122f;
+}
+
+
+.col-md-4, .col-sm-12 , .col-sm-6{
+
+padding-right: 0;
+padding-left: 0;
+
+}
+.mod{
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #b3b5b5;
+}
+#main-content{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.mod h3{
+
+	margin: auto auto 20px ;
+	font-size: 1.9em;
+	font-weight:bold;
+}
+
+#main-content > h2{
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-weight:bold;
+	text-shadow: 2px 2px 2px #222;
+
+}
+p{
+	font-size: 1.6em;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+
+
+
+} 
+
+@media (max-width: 767px) {
+
+.container .navbar-header .navbar-brand{
+
+	margin:auto 0px ;
+	height: fit-content;
+
+}
+
+}
+
+
+@media (max-width: 479px){
+
+
+
+
+
+
+}
